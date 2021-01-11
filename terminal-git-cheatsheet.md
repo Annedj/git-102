@@ -25,4 +25,13 @@ git log: see the commits in a project
 git lg: same as above but more compact
 git push origin master: will push the code to github
 
-So when
+So when you complete a challenge and want to save your changes:
+
+3-step process: (and some git status to check we have added the right files)
+
+git status
+git add filename_to_add
+git status
+git commit -m "Implemented the method to..."
+git push origin master
+
